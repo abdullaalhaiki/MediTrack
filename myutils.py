@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import requests
 #from dotenv import load_dotenv
-import steamlit as st 
+import streamlit as st 
 
 # =========================================================
 # ENVIRONMENT / API CONFIGURATION
