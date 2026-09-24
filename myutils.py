@@ -14,7 +14,7 @@ import streamlit as st
 #load_dotenv()
 
 rapidapi_key = st.secrets["RAPIDAPI_KEY"]#os.getenv("RAPIDAPI_KEY")
-openrouter_key = st.secret["OPENROUTER_API_KEY"]#os.getenv("OPENROUTER_API_KEY")
+openrouter_key = st.secrets["OPENROUTER_API_KEY"]#os.getenv("OPENROUTER_API_KEY")
 
 llm_url = "https://openrouter.ai/api/v1/chat/completions"
 
